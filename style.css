@@ -1,2 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body {
+    color: #5bc0de;
+    font-family: "Poppins", sans-serif;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 1rem;
+}
+
+#googleMap {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#output {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px auto;
+}
+.autocomplete-suggestions {
+    border: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    width: calc(100% - 20px);
+}
+
+.autocomplete-suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-suggestions div:hover {
+    background-color: #f0f0f0;
+}
