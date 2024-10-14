@@ -1,19 +1,10 @@
 <ul>
                               <li><h1>Maps App Feature</h1></li>
-                              <li class="de"><h2>Marks the two cities or countries you wrote</h2></li>
-                               <li class="da"><h2>laeflet and Openstreetmap Api were used</h2></li>
+                              <li><h2 style="color:#5bc0de;">Marks the two cities or countries you wrote</h2></li>
+                               <li><h2 style="color:#10b6e9;">laeflet and Openstreetmap Api were used</h2></li>
                               <li> See a Driving distance</li>
                               <li>See a Driving Duration</li>
 </ul>
-<style>
-  .de{
-    color:#5bc0de;
-  }
-  .da{
-    color:#10b6e9;
-  }
-</style>
-
 home
 ![home](https://github.com/user-attachments/assets/2b7ea135-7646-469d-9aa4-1e313ceb2936)
 
